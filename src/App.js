@@ -10,7 +10,8 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+    // bg-gradient-to-br from-blue-400 to-purple-900
+    <div className='bg-site bg-gradient-to-br from-blue-400 to-purple-900'>
       <Header />
       <Banner />
       <Nav />
